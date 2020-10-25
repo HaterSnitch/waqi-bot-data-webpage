@@ -5,29 +5,21 @@ import MsgTable from './components/MsgTable'
 import Video from './components/Video'
 import Cards from './components/cards.js'
 import { Typography } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
-// import 'fontsource-roboto';
 import Grid from '@material-ui/core/Grid';
-const useStyles = makeStyles((theme) => ({
-  typo: {
-  margin: 70,
-  }
-}));
+
 function App() {
-  const classes = useStyles();
   return (
     <div className="App">
       <MainNav />
-   
       <header className="App-header">
-      <Grid 
-        container
-        direction="column"
-        alignItems="flex-start"
-      >
-        <Typography variant="h1" component="h1" style={{marginTop:50, marginBottom:50}}>
-        HaterSnitch's WaqiBot
-        </Typography>
+        <Grid 
+          container
+          direction="column"
+          alignItems="flex-start"
+        >
+          <Typography variant="h1" component="h1" style={{marginTop:50, marginBottom:50}}>
+          HaterSnitch's WaqiBot
+          </Typography>
         </Grid>
         <Typography variant="h6" component="h4">
           <p>We liked the prompt to this project and thought we could really help to stop Islamophobic hate speech. We noticed that many people justify their hate based off of misconceptions of Islam which is why we decided to include specific Qu'ran verses.</p>
