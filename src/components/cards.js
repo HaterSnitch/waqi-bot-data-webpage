@@ -23,7 +23,7 @@ export default function Cards(){
             <Grid item xs={3}>
             <Card
             name = "Meghana Varanasi"
-            img= ""
+            img= "../images/meg.jpeg"
             github="https://github.com/Meghana-12"
             linkedin="https://www.linkedin.com/in/varanasi-meghana-1671b1192/"
             />
