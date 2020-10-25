@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/waqi-bot-data-webpage/static/css/main.ce75e021.chunk.css",
-    "main.js": "/waqi-bot-data-webpage/static/js/main.40d5c76f.chunk.js",
-    "main.js.map": "/waqi-bot-data-webpage/static/js/main.40d5c76f.chunk.js.map",
+    "main.js": "/waqi-bot-data-webpage/static/js/main.df9b3ab7.chunk.js",
+    "main.js.map": "/waqi-bot-data-webpage/static/js/main.df9b3ab7.chunk.js.map",
     "runtime-main.js": "/waqi-bot-data-webpage/static/js/runtime-main.c45226f2.js",
     "runtime-main.js.map": "/waqi-bot-data-webpage/static/js/runtime-main.c45226f2.js.map",
     "static/js/2.0cf93dc4.chunk.js": "/waqi-bot-data-webpage/static/js/2.0cf93dc4.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.c45226f2.js",
     "static/js/2.0cf93dc4.chunk.js",
     "static/css/main.ce75e021.chunk.css",
-    "static/js/main.40d5c76f.chunk.js"
+    "static/js/main.df9b3ab7.chunk.js"
   ]
 }
