@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/waqi-bot-data-webpage/static/css/main.ce75e021.chunk.css",
+    "main.js": "/waqi-bot-data-webpage/static/js/main.654cafae.chunk.js",
+    "main.js.map": "/waqi-bot-data-webpage/static/js/main.654cafae.chunk.js.map",
+    "runtime-main.js": "/waqi-bot-data-webpage/static/js/runtime-main.fcff6ab2.js",
+    "runtime-main.js.map": "/waqi-bot-data-webpage/static/js/runtime-main.fcff6ab2.js.map",
+    "static/js/2.ead54e7a.chunk.js": "/waqi-bot-data-webpage/static/js/2.ead54e7a.chunk.js",
+    "static/js/2.ead54e7a.chunk.js.map": "/waqi-bot-data-webpage/static/js/2.ead54e7a.chunk.js.map",
+    "static/js/3.5f16a7dd.chunk.js": "/waqi-bot-data-webpage/static/js/3.5f16a7dd.chunk.js",
+    "static/js/3.5f16a7dd.chunk.js.map": "/waqi-bot-data-webpage/static/js/3.5f16a7dd.chunk.js.map",
+    "index.html": "/waqi-bot-data-webpage/index.html",
+    "static/css/main.ce75e021.chunk.css.map": "/waqi-bot-data-webpage/static/css/main.ce75e021.chunk.css.map",
+    "static/js/2.ead54e7a.chunk.js.LICENSE.txt": "/waqi-bot-data-webpage/static/js/2.ead54e7a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcff6ab2.js",
+    "static/js/2.ead54e7a.chunk.js",
+    "static/css/main.ce75e021.chunk.css",
+    "static/js/main.654cafae.chunk.js"
+  ]
+}
