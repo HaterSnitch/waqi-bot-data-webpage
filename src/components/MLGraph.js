@@ -5,7 +5,7 @@ import {
 import '../App.css';
 import { makeStyles } from '@material-ui/core/styles';
 
-const positives = [43, 24, 18, 28, 25, 25, 25, 50, 43, 42, 10, 26, 48, 19, 40, 44, 13, 2, 36, 25, 30, 23, 28, 47, 26, 34, 39, 9, 25, 10]
+const positives = [43, 24, 18, 28, 25, 25, 25, 30, 43, 42, 10, 26, 50, 19, 40, 38, 13, 2, 36, 25, 30, 23, 28, 39, 26, 34, 39, 9, 25, 10]
 const negatives = [-85, -57, -37, -72, -61, -80, -39, -77, -85, -64, -69, -54, -42, -70, -39, -47, -84, -59, -93, -64, -51, -53, -42, -87, -82, -45, -76, -86, -88, -46]
 const data = []
 for (let i = 0; i < positives.length; i += 1) {
@@ -26,7 +26,7 @@ export default function Graph (){
   return(
       <BarChart
         width={1000}
-        height={350}
+        height={400}
         data={data}
         stackOffset="sign"
         margin={{
@@ -40,8 +40,8 @@ export default function Graph (){
         <Tooltip />
         <Legend />
         <ReferenceLine y={0} stroke="#000" />
-        <Bar dataKey="pos" fill="#8884d8" stackId="stack" />
-        <Bar dataKey="neg" fill="#82ca9d" stackId="stack" />
+        <Bar dataKey="pos" fill="#82ca9d" stackId="stack" />
+        <Bar dataKey="neg" fill="#FF0000" stackId="stack" />
       </BarChart>
     )
   }

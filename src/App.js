@@ -6,10 +6,14 @@ import Video from './components/Video'
 import Cards from './components/cards.js'
 import { Typography } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
+import {Img} from 'react-image';
+import a from './images/a.png'
+import b from './images/b.png'
+import c from './images/c.png'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{overflow:"hidden"}}>
       <MainNav />
       <header className="App-header">
         <Grid 
@@ -26,21 +30,10 @@ function App() {
           <p>The Naive Bayes algorithm training was the hardest as well as integrating the discord bot with this code. Creating interactive data visualization in react was also challenging. We had never done any of those and they took longer than anticipated. As well for those that had never used a python IDE, there was learning curve with getting all the libraries installed and maneuvering within a virtual environment.</p>
         </Typography>
         <h3 style={{ alignContent: 'left' }}>WaqiBot in action</h3>
-        <img 
-          src="https://files.slack.com/files-pri/T01B9HM9QE4-F01DFUZ2LLC/2020-10-25__4_.png"
-          alt="new"
-          style={{ width: '80vw' }}
-        />
-        <img 
-          src="https://files.slack.com/files-pri/T01B9HM9QE4-F01D6MFSNAH/2020-10-25__2_.png"
-          alt="new"
-          style={{ width: '80vw' }}
-        />
-        <img 
-          src="https://files.slack.com/files-pri/T01B9HM9QE4-F01D32UFE4W/2020-10-25__7_.png"
-          alt="new"
-          style={{ width: '80vw' }}
-        />
+        <img src={a} style={{margin:"3%"}}/>
+       
+        <img src={c} style={{margin:"3%"}}/>
+        <img src={b} style={{margin:"3%"}}/>
         <h3 style={{ alignContent: 'left' }}>WaqiBot predicts positive and negative sentiment</h3>
         <MLGraph />
         <h3 style={{ alignContent: 'left' }}>WaqiBot runs on all messages on the Discord server</h3>
