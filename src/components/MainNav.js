@@ -3,6 +3,7 @@ import { AppBar, Toolbar, IconButton, Button } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu'
 import Grid from '@material-ui/core/Grid';
 import { GitHub } from '@material-ui/icons';
+import { Typography } from '@material-ui/core';
 
 class MainNav extends Component {
   render() {
@@ -13,6 +14,9 @@ class MainNav extends Component {
           <IconButton edge="start" color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
+          {/* <Typography variant="body1" component="body1" style={{marginTop:50, marginBottom:50}}> */}
+          Waqi
+        {/* </Typography> */}
           <Grid 
             container
             //  direction="column"

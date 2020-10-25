@@ -50,7 +50,7 @@ export default function RecipeReviewCard(props) {
          justify="center"
          >
       <CardContent>
-        <Typography variant="body2" color="textSecondary" component="h2">
+        <Typography variant="body1" color="textSecondary" component="body2">
         {props.name}
         </Typography>
       </CardContent>
