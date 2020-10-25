@@ -4,31 +4,27 @@ import {
 } from 'recharts';
 import '../App.css';
 
-const data = [
-  {
-    name: 'Msg 1', neg: -45, pov: 55
-  },
-  {
-    name: 'Msg 2', neg: 0, pov: 65
-  },
-  {
-    name: 'Msg 3', neg: -79, pov: 32
-  },
-  {
-    name: 'Msg 4', neg: -97, pov: 9
-  },
-];
+const positives = [43, 24, 18, 28, 25, 25, 25, 50, 43, 42, 10, 26, 48, 19, 40, 44, 13, 2, 36, 25, 30, 23, 28, 47, 26, 34, 39, 9, 25, 10]
+const negatives = [-85, -57, -37, -72, -61, -80, -39, -77, -85, -64, -69, -54, -42, -70, -39, -47, -84, -59, -93, -64, -51, -53, -42, -87, -82, -45, -76, -86, -88, -46]
+const data = []
+for (let i = 0; i < positives.length; i += 1) {
+  data.push({
+    name: `${i+1}`,
+    neg: negatives[i],
+    pos: positives[i]
+  })
+}
 
 export default class Graph extends PureComponent {
   render() {
     return (
       <BarChart
-        width={800}
+        width={1000}
         height={350}
         data={data}
         stackOffset="sign"
         margin={{
-          top: 5, right: 30, left: 20, bottom: 5,
+          top: 5, right: 5, left: 5, bottom: 5,
         }}
         className="ml-graph"
       >
@@ -38,7 +34,7 @@ export default class Graph extends PureComponent {
         <Tooltip />
         <Legend />
         <ReferenceLine y={0} stroke="#000" />
-        <Bar dataKey="pov" fill="#8884d8" stackId="stack" />
+        <Bar dataKey="pos" fill="#8884d8" stackId="stack" />
         <Bar dataKey="neg" fill="#82ca9d" stackId="stack" />
       </BarChart>
     );

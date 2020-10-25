@@ -41,14 +41,40 @@ function createData(id, message, positive, negative) {
 }
 
 const messages = [
-  'bad Islam',
+  'islam worst religion arab hate',
   'women Muslim not good',
   'ban Islam',
-  'Muslims are terrorists'
+  'Muslims are terrorists',
+  "islam worst religion arab hate",
+  "RT @ensine: All #muslim rulers were savages bcoz #islamIsTheProblem, even profeet himself \n#TyrantTipu \nhttps://t.co/RqR4778Alr",
+  "RT @Private34349909: @AmyMek @Dab7One 1/ @realDonaldTrump @seanhannity @TuckerCarlson PLEASE #BanIslam \u0026amp; #DeportALLmuslims They do NOT meet…",
+  "RT @PoliticalIslam: Educate yourself! #RT https://t.co/bYZOofbMjI #STOPIslam #BillWarnerPhD @PoliticalIslam #MakeDCListen #BanSharia #CSPI",
+  "RT @ensine: All #muslim rulers were savages bcoz #islamIsTheProblem, even profeet himself \n#TyrantTipu \nhttps://t.co/RqR4778Alr",
+  "RT @SteersMann: Say, @CanadianPM @liberal_party, these the type of people you - \u0026amp; Iqra Khalid - want to welcome with open arms? Time to #Ba…",
+  "#BanIslam\n#TravelBan\n#BuildTheWall\n#ShariaResistance\n#AntiPedoZone\n#ProtectKids\n#MAGA\n#MASA https://t.co/cdTh5P0HFO",
+  "#DEATHWISH #UK police produce pro-izlam propaganda vid featuring #hamASS linked group https://t.co/QMsFiHzzNg #BANiSLAM",
+  "https://t.co/8ECydgsbMn #racist ? #AltLeft #dianeabbott false statements about #Rotherham #childtrafficking \napplauded. #islamistheproblem",
+  "Say, @CanadianPM @JustinTrudeau @liberal_party, some more people 2 put at head of immigration queue? Too \"Islamopho… https://t.co/hS3QSOuwQ1",
+  "RT @REALtrumpbureau: #ISLAMISTHEPROBLEM❌\n#BANISLAMinAMERICA\n@V_of_Europe\n🇫🇷 Prominent #Muslim propagandist #TariqRamadan accused of RAPE ht…",
+  "RT @ensine: Another reason KHANgressi govt must #BanTippuJayanti \n#TyrantTipu #Muslims #Islam #IslamIsTheProblem https://t.co/rqhLsTF5Sd",
+  "3 Things About Islam (video share) #BillWarnerPhD #RT https://t.co/g7dswVbQmm #STOPIslam @PoliticalIslam #MakeDCListen #BanSharia #CSPI",
+  "#DefendEurope #FreedomFight #BanIslam #FreedomFromEu #StopMigration #RefugeesNotWelcome https://t.co/446r0JJMkc",
+  "#Sweden LOVES #Islam \n\nHow's letting in the rapefugees workin for ya? #BanIslam #DuesVult https://t.co/MP5w1wmVrN",
+  "#fedidwgugl #CDU #SPD @cducsubt @spdbt #Stopislam #Islamistheproblem https://t.co/O6ll0NqtOX",
+  "@paulwestonlibgb #STOPIslam \n#BANIslam\n#FUCKIslam\n#DESTROYIslam\nWhat do you choose?\nThe choice is yours...",
+  "RT @Hannesz1956: @Stormtroepen @cdavandaag @sybrandbuma @gertjansegers @fvdemocratie Yep. Het staat er zwart op wit. En het is toegestaan v…",
+  "@borneostraat455 @OmSionsWil Ja. Dit zegt dus genoeg. #banislam",
+  "Billions for border security or this on the cheap? Video. #RT https://t.co/e9xbrXnhNN #BanSharia #tcot #MakeDCListen https://t.co/Fvqot8tC41",
+  "RT @flgal4trump: #ISupportPresidentTrump   #Trump2020 #1A #2A #AmericaFirst #BanIslam https://t.co/UnvzUWcDc6",
+  "#BanIslam - cult - brainwashed from birth - no assimilation into society - mutants! https://t.co/dFTUhw0ibI",
+  "RT if u r for the Constitution! #RT https://t.co/9qYD1pmBUr #StopIslam #TCOT @PoliticalIslam #MakeDCListen #BanSharia",
+  "Islam constantly attacking Europe! RT https://t.co/BYa8zlmW4e #STOPIslam #BillWarnerPhD #PoliticalIslam #CSPI #BanSharia",
+  "ISIS is Big Business! #RT https://t.co/D6Z5uSI7fT #STOPIslam @DianeSori #MakeDCListen #BanSharia @PoliticalIslam",
+  "RT @flgal4trump: #ISupportPresidentTrump   #Trump2020 #1A #2A #AmericaFirst #BanIslam https://t.co/UnvzUWcDc6",
 ];
 
-const positives = [55, 65, 32, 9]
-const negatives = [-45, 0, -79, -97]
+const positives = [43, 24, 18, 28, 25, 25, 25, 50, 43, 42, 10, 26, 48, 19, 40, 44, 13, 2, 36, 25, 30, 23, 28, 47, 26, 34, 39, 9, 25, 10]
+const negatives = [-85, -57, -37, -72, -61, -80, -39, -77, -85, -64, -69, -54, -42, -70, -39, -47, -84, -59, -93, -64, -51, -53, -42, -87, -82, -45, -76, -86, -88, -46]
 
 const rows = [];
 

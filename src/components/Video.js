@@ -9,9 +9,8 @@ class Video extends Component {
         <div className='player-wrapper'>
           <ReactPlayer
             className='react-player fixed-bottom'
-            url= 'example-video.mov'
-            width='100%'
-            height='100%'
+            url= 'example-video.mov' // can also use an remote url https://www.youtube.com/watch?v=ysz5S6PUM-U
+            width='80vw'
             controls = {true}
           />
         </div>
