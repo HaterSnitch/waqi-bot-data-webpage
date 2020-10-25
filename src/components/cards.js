@@ -52,7 +52,6 @@ export default function Cards(){
                 linkedin=""
                 />
                 </Grid>
-            
         </Grid>
   
     )

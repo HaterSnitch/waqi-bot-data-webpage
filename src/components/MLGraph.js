@@ -3,6 +3,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ReferenceLine,
 } from 'recharts';
 import '../App.css';
+import { makeStyles } from '@material-ui/core/styles';
 
 const positives = [43, 24, 18, 28, 25, 25, 25, 50, 43, 42, 10, 26, 48, 19, 40, 44, 13, 2, 36, 25, 30, 23, 28, 47, 26, 34, 39, 9, 25, 10]
 const negatives = [-85, -57, -37, -72, -61, -80, -39, -77, -85, -64, -69, -54, -42, -70, -39, -47, -84, -59, -93, -64, -51, -53, -42, -87, -82, -45, -76, -86, -88, -46]
@@ -14,10 +15,17 @@ for (let i = 0; i < positives.length; i += 1) {
     pos: positives[i]
   })
 }
+const useStyles = makeStyles((theme) => ({
+  root: {
+    margin: 30,
+    // paddingTop: "500px",
+    // backgroundColor: 	"#FF0000",
+  }
+}));
 
-export default class Graph extends PureComponent {
-  render() {
-    return (
+export default function Graph (){
+  const classes = useStyles();
+  return(
       <BarChart
         width={1000}
         height={350}
@@ -26,7 +34,7 @@ export default class Graph extends PureComponent {
         margin={{
           top: 5, right: 5, left: 5, bottom: 5,
         }}
-        className="ml-graph"
+        className={classes.root}
       >
         <CartesianGrid strokeDasharray="3 3"/>
         <XAxis dataKey="name" />
@@ -37,6 +45,6 @@ export default class Graph extends PureComponent {
         <Bar dataKey="pos" fill="#8884d8" stackId="stack" />
         <Bar dataKey="neg" fill="#82ca9d" stackId="stack" />
       </BarChart>
-    );
+    )
   }
-}
+
