@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import MainNav from './components/MainNav'
 import MLGraph from './components/MLGraph'
@@ -14,24 +13,26 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 function App() {
-  const classes = useStyles();
   return (
     <div className="App">
       <MainNav />
    
       <header className="App-header">
         <Typography variant="h1" component="h1" style={{margin: 20}}>
-        HaterSnitch's 
-        Waqi
+          WaqiBot
+        </Typography>
+        <Typography variant="h2" component="h1" style={{margin: 20}}>
+          - Product of HaterSnitch
         </Typography>
         <Typography variant="h5" component="h2">
-        I will be pet i will be pet and then i will hiss sleep on my human's head bird bird bird bird bird bird human why take bird out i could have eaten that or paw your face to wake you up in the morning stare at ceiling light human is washing you why halp oh the horror flee scratch hiss bite but meow in empty rooms. Fall asleep upside-down destroy the blinds but i shall purr myself to sleep ptracy, so lick the other cats. Kitty kitty fall asleep upside-down. The fat cat sat on the mat bat away with paws stretch sun bathe human give me attention meow and cats are a queer kind of folk. Eats owners hair then claws head in the middle of the night i crawl onto your chest and purr gently to help you sleep mewl for food at 4am play riveting piece on synthesizer keyboard, pose purrfectly to show my beauty. So you're just gonna scroll by without saying meowdy?
+          <p>We liked the prompt to this project and thought we could really help to stop Islamophobic hate speech. We noticed that many people justify their hate based off of misconceptions of Islam which is why we decided to include specific Qu'ran verses.</p>
+          <p>The Naive Bayes algorithm training was the hardest as well as integrating the discord bot with this code. Creating interactive data visualization in react was also challenging. We had never done any of those and they took longer than anticipated. As well for those that had never used a python IDE, there was learning curve with getting all the libraries installed and maneuvering within a virtual environment.</p>
+          <p></p>
         </Typography>
         <MLGraph />
         <MsgTable />
         <Video />
-        
-       <Cards/>
+        <Cards />
       </header>
     </div>
   );
