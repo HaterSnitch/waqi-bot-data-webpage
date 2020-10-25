@@ -3,6 +3,7 @@ import './App.css';
 import MainNav from './components/MainNav'
 import MLGraph from './components/MLGraph'
 import MsgTable from './components/MsgTable'
+import Video from './components/Video'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         </p>
         <MLGraph />
         <MsgTable />
-
+        <Video />
+        
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

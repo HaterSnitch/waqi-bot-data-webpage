@@ -6,16 +6,16 @@ import '../App.css';
 
 const data = [
   {
-    name: 'Msg A', neg: -45, pov: 55
+    name: 'Msg 1', neg: -45, pov: 55
   },
   {
-    name: 'Msg B', neg: 0, pov: 65
+    name: 'Msg 2', neg: 0, pov: 65
   },
   {
-    name: 'Msg C', neg: -79, pov: 32
+    name: 'Msg 3', neg: -79, pov: 32
   },
   {
-    name: 'Msg D', neg: -97, pov: 9
+    name: 'Msg 4', neg: -97, pov: 9
   },
 ];
 
