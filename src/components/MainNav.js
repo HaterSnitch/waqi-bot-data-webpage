@@ -10,7 +10,7 @@ class MainNav extends Component {
           <IconButton edge="start" color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Button color="inherit" href="https://technica2020.devpost.com/">DevPost</Button>
+          <Button color="inherit" href="https://devpost.com/software/waqibot">DevPost</Button>
           <Button color="inherit" href="https://github.com/HaterSnitch">Github</Button>
         </Toolbar>
       </AppBar>
