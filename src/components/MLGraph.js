@@ -18,8 +18,6 @@ for (let i = 0; i < positives.length; i += 1) {
 const useStyles = makeStyles((theme) => ({
   root: {
     margin: 30,
-    // paddingTop: "500px",
-    // backgroundColor: 	"#FF0000",
   }
 }));
 
