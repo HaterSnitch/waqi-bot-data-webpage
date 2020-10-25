@@ -14,6 +14,8 @@
 }
 
 .App-header {
+  padding-left: 5vw;
+  padding-right: 5vw;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +24,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+p {
+  text-align: left;
+}
+
+.ml-graph {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
 }
 
 .App-link {
