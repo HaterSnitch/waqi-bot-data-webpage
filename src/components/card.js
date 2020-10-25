@@ -54,14 +54,20 @@ export default function RecipeReviewCard(props) {
         image={props.img}
         title={props.name}
       />
+      <Grid 
+         container
+         justify="center"
+         >
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
         {props.name}
         </Typography>
       </CardContent>
+      </Grid>
       <CardActions disableSpacing>
         <Grid 
          container
+         justify="center"
          >
         <IconButton aria-label="add to favorites" href={props.github}>
           <GitHub />
