@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     margin : 30,
   },
   media: {
-    height: 0,
+    height: "80px",
     paddingTop: '56.25%', // 16:9
   },
   expand: {
@@ -50,7 +50,7 @@ export default function RecipeReviewCard(props) {
          justify="center"
          >
       <CardContent>
-        <Typography variant="body2" color="textSecondary" component="p">
+        <Typography variant="body1" color="textSecondary" component="body2">
         {props.name}
         </Typography>
       </CardContent>
